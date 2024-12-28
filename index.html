@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Transform your life at our state-of-the-art fitness facility. Join our community and achieve your fitness goals today.">
+    <title>FitLife Gym - Transform Your Life</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="mainNav">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="/api/placeholder/150/50" alt="FitLife Gym Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#classes">Classes</a></li>
+                <li><a href="#membership">Membership</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <!-- Using Image 1 as hero background -->
+        <img src="/api/placeholder/1920/1080" alt="Our Modern Gym Facility with Premium Equipment" class="hero-bg">
+        <div class="hero-content">
+            <h1>Transform Your Body,<br>Transform Your Life</h1>
+            <p>Join our community and start your fitness journey today</p>
+            <a href="#membership" class="cta-button">Get Started</a>
+        </div>
+    </section>
+
+    <!-- Facilities Showcase -->
+    <section id="facilities" class="facilities">
+        <div class="container">
+            <h2>Our Premium Facilities</h2>
+            <div class="facility-grid">
+                <!-- Using Image 1 -->
+                <div class="facility-item">
+                    <img src="D:\claude_gym\gym_img.jpg" alt="Premium Weight Training Area" class="facility-image">
+                    <h3>State-of-the-Art Equipment</h3>
+                    <p>Premium strength training equipment for optimal results</p>
+                </div>
+                <!-- Using Image 3 -->
+                <div class="facility-item">
+                    <img src="D:\claude_gym\gym_img2.jpg" alt="Free Weights Area" class="facility-image">
+                    <h3>Comprehensive Free Weights</h3>
+                    <p>Full range of dumbbells and specialized training benches</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Training Programs -->
+    <section id="training" class="training">
+        <div class="container">
+            <h2>Expert-Led Training</h2>
+            <!-- Using Image 2 -->
+            <div class="training-highlight">
+                <img src="D:\claude_gym\gym_img3.jpg" alt="Professional Training Session" class="training-image">
+                <div class="training-content">
+                    <h3>Personalized Fitness Programs</h3>
+                    <p>Work with our certified trainers to achieve your fitness goals</p>
+                    <ul class="training-features">
+                        <li><i class="fas fa-check"></i> One-on-one coaching</li>
+                        <li><i class="fas fa-check"></i> Customized workout plans</li>
+                        <li><i class="fas fa-check"></i> Nutritional guidance</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Classes Section -->
+    <section id="classes" class="classes">
+        <div class="container">
+            <h2>Our Classes</h2>
+            <div class="class-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="cardio">Cardio</button>
+                <button class="filter-btn" data-filter="strength">Strength</button>
+                <button class="filter-btn" data-filter="yoga">Yoga</button>
+            </div>
+            <div class="class-grid">
+                <div class="class-card" data-category="strength">
+                    <img src="/api/placeholder/400/300" alt="Strength Training Class">
+                    <h3>Power Lifting</h3>
+                    <p>Build strength and muscle with expert guidance</p>
+                    <span class="time">Mon, Wed, Fri - 6:00 AM</span>
+                </div>
+                <div class="class-card" data-category="cardio">
+                    <img src="/api/placeholder/400/300" alt="HIIT Class">
+                    <h3>HIIT Training</h3>
+                    <p>High-intensity interval training for maximum results</p>
+                    <span class="time">Tue, Thu - 7:00 AM</span>
+                </div>
+                <div class="class-card" data-category="yoga">
+                    <img src="/api/placeholder/400/300" alt="Yoga Class">
+                    <h3>Power Yoga</h3>
+                    <p>Find balance between mind and body</p>
+                    <span class="time">Daily - 8:00 AM</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Membership Section -->
+    <section id="membership" class="membership">
+        <div class="container">
+            <h2>Membership Plans</h2>
+            <div class="plan-grid">
+                <div class="plan-card">
+                    <h3>Basic</h3>
+                    <div class="price">$29<span>/month</span></div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Access to gym floor</li>
+                        <li><i class="fas fa-check"></i> Basic equipment usage</li>
+                        <li><i class="fas fa-check"></i> Locker room access</li>
+                    </ul>
+                    <button class="plan-button">Choose Plan</button>
+                </div>
+                <div class="plan-card featured">
+                    <h3>Premium</h3>
+                    <div class="price">$49<span>/month</span></div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> All Basic features</li>
+                        <li><i class="fas fa-check"></i> Unlimited classes</li>
+                        <li><i class="fas fa-check"></i> Personal trainer session</li>
+                        <li><i class="fas fa-check"></i> Nutrition consultation</li>
+                    </ul>
+                    <button class="plan-button">Choose Plan</button>
+                </div>
+                <div class="plan-card">
+                    <h3>Elite</h3>
+                    <div class="price">$79<span>/month</span></div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> All Premium features</li>
+                        <li><i class="fas fa-check"></i> VIP locker room</li>
+                        <li><i class="fas fa-check"></i> Spa access</li>
+                        <li><i class="fas fa-check"></i> Guest passes</li>
+                    </ul>
+                    <button class="plan-button">Choose Plan</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>123 Fitness Street<br>New York, NY 10001</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>(555) 123-4567</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>info@fitlifegym.com</p>
+                    </div>
+                    <div class="map">
+                        <img src="/api/placeholder/400/300" alt="Map">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="/api/placeholder/150/50" alt="FitLife Gym Logo">
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#classes">Classes</a></li>
+                        <li><a href="#membership">Membership</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 FitLife Gym. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
